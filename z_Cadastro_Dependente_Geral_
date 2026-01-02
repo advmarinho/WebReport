@@ -1,0 +1,46 @@
+ ANDERSSOUZA60_menu
+
+
+  z_Cadastro_Dependente_Geral_
+Tornar PRIVADO
+
+
+  Ler Pessoa_Física
+  Ler Dependente de Pessoa_Física
+  Ler Empregado de Pessoa_Física
+  Ler Histórico_Rescisão de Empregado
+    Onde Histórico_Rescisão.Data_Afastamento >= [Data_dem,12/31/2099]
+
+
+  Pessoa_Física.Nome
+  Pessoa_Física.CPF
+  Empregado.Empresa - Código
+  Empregado.Empresa - Razão Social
+  Empregado.Matrícula
+  Empregado.Matrícula eSocial
+  Dependente.Número Seqüencial
+  Dependente.Parentesco
+  Dependente.Parentesco - Código
+  Dependente.Sexo
+  Dependente.CPF
+  Dependente.Nome
+  Dependente.Desc Parentesco
+  Dependente.Idade
+  Dependente.Status
+  Dependente.Inativo Desde
+  Dependente.Identificador
+  Dependente.Data Perda de Dep IRRF
+  Dependente.Dependente de IRRF
+  Dependente.Data de Nascimento
+  Dependente.Data Validade Dependente IR/SF
+  Empregado.Centro de Resultado - Código
+  Empregado.Centro de Resultado - Nome
+  Empregado.Idade
+  Empregado.Desligado
+  Empregado.ID SONOVA
+  Empregado.Situação do Empregado - Status
+  Empregado.Situação sem Data
+  Empregado.Data da Admissão
+  Empregado.Data de Desligamento
+
+Fórmulas :
