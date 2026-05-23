@@ -1,0 +1,54 @@
+ANDERSSOUZA60_menu - Anderson Marinho de Souza
+
+
+  z_FTE_v1
+Tornar PRIVADO
+
+
+  Ler Pessoa_Física
+  Ler Empregado de Pessoa_Física
+  Ler Estabelecimento de Empregado
+  Ler Histórico_Rescisão de Empregado
+    Onde Histórico_Rescisão.Data_Afastamento >= [Data_Dem,12/31/2099]
+  Ler Motivo_Rescisão de Histórico_Rescisão
+
+
+  Empregado.Empresa - Código
+  Estabelecimento.CNPJ
+  Estabelecimento.Nome Comercial
+  Empregado.Centro de Resultado - Código
+  Empregado.Centro de Resultado - Nome
+  Pessoa_Física.CPF
+  Empregado.Matrícula
+  Pessoa_Física.Nome
+  Empregado.Função - Nome
+  Empregado.Data da Admissão
+  Pessoa_Física.Data de Nascimento
+  Pessoa_Física.Sexo
+  Pessoa_Física.Grau de Instrução - Nome
+  Pessoa_Física.Identidade
+  Empregado.Vínculo Empregatício - Nome
+  Empregado.Situação do Empregado
+  Empregado.ID SONOVA
+  Empregado.Centro de custo Suíça/Novo
+  Empregado.Chefia Imediata - Nome
+  Estabelecimento.Endereço - UF
+  Estabelecimento.Endereço - Município Nome
+  Empregado.Salário
+  Empregado.Salario Anterior
+  Empregado.Sindicato - Código
+  Empregado.Sindicato - Razão Social
+  Empregado.Categoria Profissional - Cód
+  Empregado.Categoria Profissional - Nome
+  Empregado.Data de Desligamento
+  Motivo_Rescisão.Sigla
+  Motivo_Rescisão.Nome
+  Empregado.Tempo de Serviço
+  Empregado.Idade
+  Pessoa_Física.E-Mail
+  Pessoa_Física.Email Alternativo
+  Pessoa_Física.DDD e Telefone
+  Histórico_Rescisão.Data Afastamento
+  Histórico_Rescisão.Data Fim Aviso Previo Ind
+  Estabelecimento.Código
+  Estabelecimento.UF Municipio Estabelecimento
